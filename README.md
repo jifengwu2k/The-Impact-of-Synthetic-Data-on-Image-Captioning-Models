@@ -1,0 +1,1 @@
+# The-Impact-of-Synthetic-Data-on-Image-Captioning-Models
