@@ -6,6 +6,7 @@ import pandas as pd
 import torch.utils.data
 import torchvision.transforms as transforms
 from PIL import Image
+from tqdm import tqdm
 
 from bleu_score import bleu_score
 from encoder_decoder import Encoder, Decoder
@@ -69,7 +70,7 @@ if __name__ == '__main__':
     generated_score_list: list[float] = []
     theoretical_score_list: list[float] = []
 
-    for test_file_name, dataframe_with_test_file_name in test_file_names_and_captions_dataframe.groupby('file_name'):
+    for test_file_name, dataframe_with_test_file_name in tqdm(test_file_names_and_captions_dataframe.groupby('file_name')):
         assert isinstance(test_file_name, str)
 
         image_path: str = os.path.join(
