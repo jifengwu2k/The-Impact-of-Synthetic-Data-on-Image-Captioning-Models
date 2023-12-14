@@ -123,7 +123,7 @@ if __name__ == '__main__':
     optimizer = torch.optim.Adam(params, lr=0.001)
 
     # Train the model
-    for epoch in range(80):
+    for epoch in range(num_epochs):
         # Create a tqdm progress bar
         pbar = tqdm(data_loader)
         for i, (stacked_images_, stacked_captions_, caption_length_list_) in enumerate(pbar):
