@@ -1,5 +1,7 @@
 # The Impact of Synthetic Data on Image Captioning Models
 
+By Jifeng Wu, Bowen Zhang, and Ziyu Wang (equal contribution).
+
 All code for the paper "The Impact of Synthetic Data on Image Captioning Models".
 
 We ran the code on Google Colab (although you can adapt the following notebooks to run locally). To replicate the results:
