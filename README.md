@@ -1,6 +1,6 @@
 # The Impact of Synthetic Data on Image Captioning Models
 
-By Jifeng Wu, Bowen Zhang, and Ziyu Wang (equal contribution).
+By [Jifeng Wu](https://github.com/abbaswu), [Bowen Zhang](https://github.com/AllianceDoge), and [Ziyu Wang](https://github.com/wzy236) (equal contribution).
 
 All code for the paper "The Impact of Synthetic Data on Image Captioning Models".
 
